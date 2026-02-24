@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="bm-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#E8DFD0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bm-bg)"/>
+  <!-- Subtle textile pattern -->
+  <g opacity="0.06">
+    <line x1="0" y1="0" x2="600" y2="600" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="0" y1="40" x2="600" y2="640" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="0" y1="80" x2="600" y2="680" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="0" y1="120" x2="600" y2="720" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="600" y2="760" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="600" y2="800" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="40" y1="0" x2="640" y2="600" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="80" y1="0" x2="680" y2="600" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="120" y1="0" x2="720" y2="600" stroke="#8B6F47" stroke-width="0.5"/>
+  </g>
+  <!-- Wrap dress silhouette -->
+  <g transform="translate(300, 100)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="28" ry="34" fill="#C4A882" opacity="0.35"/>
+    <!-- Head wrap -->
+    <path d="M-25 -12 Q-30 -38 -10 -42 Q0 -45 10 -42 Q30 -38 25 -12" fill="#D4A847" opacity="0.3"/>
+    <!-- Neck -->
+    <rect x="-5" y="30" width="10" height="20" fill="#C4A882" opacity="0.15" rx="5"/>
+    <!-- Wrap dress -->
+    <path d="M-65 55 Q-70 100 -65 180 Q-60 260 -75 340 Q-85 420 -95 520 Q-100 580 -100 620"
+          fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.5"/>
+    <path d="M65 55 Q70 100 65 180 Q55 260 50 340 Q45 420 40 520 Q38 580 35 620"
+          fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.5"/>
+    <!-- Dress fill -->
+    <path d="M-65 55 Q-70 100 -65 180 Q-60 260 -75 340 Q-85 420 -95 520 Q-100 580 -100 620
+             L35 620 Q38 580 40 520 Q45 420 50 340 Q55 260 65 180 Q70 100 65 55 Z"
+          fill="#E8DFD0" opacity="0.35"/>
+    <!-- Wrap cross detail -->
+    <path d="M-15 55 Q-45 180 -30 340 Q-20 450 -60 620" fill="none" stroke="#B8860B" stroke-width="1.2" opacity="0.3"/>
+    <!-- Waist tie -->
+    <path d="M-62 210 Q0 200 60 210" fill="none" stroke="#B8860B" stroke-width="2" opacity="0.35"/>
+    <path d="M45 210 Q65 225 80 260" fill="none" stroke="#B8860B" stroke-width="1.5" opacity="0.25"/>
+    <path d="M45 210 Q60 230 70 270" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.2"/>
+  </g>
+  <!-- Product label -->
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#8B6F47" opacity="0.5">THE BAMAKO WRAP DRESS</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#8B6F47" opacity="0.3">DESERT SAND</text>
+</svg>

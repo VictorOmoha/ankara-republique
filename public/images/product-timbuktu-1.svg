@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="tb-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0EBE0"/>
+      <stop offset="100%" stop-color="#E0D5C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#tb-bg)"/>
+  <!-- Linen texture -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="0" y2="800" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="8" y1="0" x2="8" y2="800" stroke="#8B6F47" stroke-width="0.3"/>
+    <line x1="16" y1="0" x2="16" y2="800" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="24" y1="0" x2="24" y2="800" stroke="#8B6F47" stroke-width="0.3"/>
+    <line x1="32" y1="0" x2="32" y2="800" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="580" y1="0" x2="580" y2="800" stroke="#8B6F47" stroke-width="0.5"/>
+    <line x1="572" y1="0" x2="572" y2="800" stroke="#8B6F47" stroke-width="0.3"/>
+    <line x1="564" y1="0" x2="564" y2="800" stroke="#8B6F47" stroke-width="0.5"/>
+  </g>
+  <!-- Tunic silhouette -->
+  <g transform="translate(300, 110)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="26" ry="32" fill="#C4A882" opacity="0.3"/>
+    <!-- Sculptural collar -->
+    <path d="M-55 52 Q-50 35 -30 38 Q-10 42 0 48 Q10 42 30 38 Q50 35 55 52" fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.45"/>
+    <path d="M-55 52 Q-58 55 -55 60" fill="none" stroke="#8B6F47" stroke-width="1.5" opacity="0.35"/>
+    <path d="M55 52 Q58 55 55 60" fill="none" stroke="#8B6F47" stroke-width="1.5" opacity="0.35"/>
+    <!-- Architectural body -->
+    <path d="M-55 60 Q-60 120 -58 200 Q-56 280 -58 360 Q-60 420 -55 480"
+          fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.45"/>
+    <path d="M55 60 Q60 120 58 200 Q56 280 58 360 Q60 420 55 480"
+          fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.45"/>
+    <!-- Fill -->
+    <path d="M-55 60 Q-60 120 -58 200 Q-56 280 -58 360 Q-60 420 -55 480
+             L55 480 Q60 420 58 360 Q56 280 58 200 Q60 120 55 60 Z"
+          fill="#E0D5C3" opacity="0.3"/>
+    <!-- Hem -->
+    <path d="M-55 480 Q0 490 55 480" fill="none" stroke="#8B6F47" stroke-width="1.2" opacity="0.3"/>
+    <!-- Side seam details -->
+    <path d="M-56 200 L-66 200" fill="none" stroke="#8B6F47" stroke-width="0.8" opacity="0.2"/>
+    <path d="M56 200 L66 200" fill="none" stroke="#8B6F47" stroke-width="0.8" opacity="0.2"/>
+    <!-- Trouser lines beneath -->
+    <line x1="-25" y1="480" x2="-28" y2="600" stroke="#8B6F47" stroke-width="1.5" opacity="0.3"/>
+    <line x1="25" y1="480" x2="28" y2="600" stroke="#8B6F47" stroke-width="1.5" opacity="0.3"/>
+    <line x1="-45" y1="480" x2="-50" y2="600" stroke="#8B6F47" stroke-width="1" opacity="0.2"/>
+    <line x1="45" y1="480" x2="50" y2="600" stroke="#8B6F47" stroke-width="1" opacity="0.2"/>
+  </g>
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#8B6F47" opacity="0.5">THE TIMBUKTU TUNIC</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#8B6F47" opacity="0.3">WARM OAT</text>
+</svg>

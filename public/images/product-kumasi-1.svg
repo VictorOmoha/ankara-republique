@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="km-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4956B"/>
+      <stop offset="100%" stop-color="#B87A50"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#km-bg)"/>
+  <!-- Stretch cotton texture -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="0" y2="800" stroke="#5C4033" stroke-width="0.4"/>
+    <line x1="5" y1="0" x2="5" y2="800" stroke="#5C4033" stroke-width="0.3"/>
+    <line x1="10" y1="0" x2="10" y2="800" stroke="#5C4033" stroke-width="0.4"/>
+    <line x1="590" y1="0" x2="590" y2="800" stroke="#5C4033" stroke-width="0.4"/>
+    <line x1="595" y1="0" x2="595" y2="800" stroke="#5C4033" stroke-width="0.3"/>
+    <line x1="600" y1="0" x2="600" y2="800" stroke="#5C4033" stroke-width="0.4"/>
+  </g>
+  <!-- Pencil skirt flat-lay style -->
+  <g transform="translate(300, 100)">
+    <!-- Waistband -->
+    <path d="M-75 0 Q-78 5 -78 15 Q-78 25 -75 30 L75 30 Q78 25 78 15 Q78 5 75 0 Z"
+          fill="#A0664A" opacity="0.25" stroke="#5C4033" stroke-width="1.2"/>
+    <!-- Hidden zipper line -->
+    <line x1="72" y1="30" x2="68" y2="200" stroke="#5C4033" stroke-width="0.6" opacity="0.2"/>
+    <!-- Pencil shape — fitted -->
+    <path d="M-75 30 Q-82 100 -80 200 Q-78 300 -72 380 Q-68 420 -65 450"
+          fill="none" stroke="#5C4033" stroke-width="2" opacity="0.45"/>
+    <path d="M75 30 Q82 100 80 200 Q78 300 72 380 Q68 420 65 450"
+          fill="none" stroke="#5C4033" stroke-width="2" opacity="0.45"/>
+    <!-- Fill -->
+    <path d="M-75 30 Q-82 100 -80 200 Q-78 300 -72 380 Q-68 420 -65 450
+             L65 450 Q68 420 72 380 Q78 300 80 200 Q82 100 75 30 Z"
+          fill="#B87A50" opacity="0.2"/>
+    <!-- Hem with kick pleat hint -->
+    <path d="M-65 450 Q0 455 65 450" fill="none" stroke="#5C4033" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="420" x2="0" y2="450" stroke="#5C4033" stroke-width="0.5" opacity="0.15"/>
+    <!-- Dart lines -->
+    <line x1="-35" y1="30" x2="-30" y2="100" stroke="#5C4033" stroke-width="0.5" opacity="0.12"/>
+    <line x1="35" y1="30" x2="30" y2="100" stroke="#5C4033" stroke-width="0.5" opacity="0.12"/>
+    <!-- Mannequin legs -->
+    <line x1="-20" y1="450" x2="-22" y2="580" stroke="#5C4033" stroke-width="1" opacity="0.2"/>
+    <line x1="20" y1="450" x2="22" y2="580" stroke="#5C4033" stroke-width="1" opacity="0.2"/>
+  </g>
+  <text x="300" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#5C4033" opacity="0.55">THE KUMASI PENCIL SKIRT</text>
+  <text x="300" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#5C4033" opacity="0.35">WARM CLAY</text>
+</svg>

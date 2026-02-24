@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="kn-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222244"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#kn-bg)"/>
+  <!-- Chambray subtle texture -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="600" y2="0" stroke="#6688bb" stroke-width="0.5"/>
+    <line x1="0" y1="3" x2="600" y2="3" stroke="#6688bb" stroke-width="0.3"/>
+    <line x1="0" y1="6" x2="600" y2="6" stroke="#6688bb" stroke-width="0.5"/>
+    <line x1="0" y1="9" x2="600" y2="9" stroke="#6688bb" stroke-width="0.3"/>
+  </g>
+  <!-- Shirt dress silhouette on figure -->
+  <g transform="translate(300, 95)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="25" ry="30" fill="#1e2952" stroke="#4a6fa5" stroke-width="0.8" opacity="0.6"/>
+    <!-- Braids -->
+    <path d="M-20 -10 Q-25 -30 -18 -35" fill="none" stroke="#4a6fa5" stroke-width="1" opacity="0.25"/>
+    <path d="M-12 -15 Q-15 -35 -8 -38" fill="none" stroke="#4a6fa5" stroke-width="1" opacity="0.25"/>
+    <path d="M12 -15 Q15 -35 8 -38" fill="none" stroke="#4a6fa5" stroke-width="1" opacity="0.25"/>
+    <path d="M20 -10 Q25 -30 18 -35" fill="none" stroke="#4a6fa5" stroke-width="1" opacity="0.25"/>
+    <!-- Collar -->
+    <path d="M-18 28 Q-25 35 -35 38 Q-20 42 -10 35" fill="none" stroke="#5577aa" stroke-width="1.2" opacity="0.4"/>
+    <path d="M18 28 Q25 35 35 38 Q20 42 10 35" fill="none" stroke="#5577aa" stroke-width="1.2" opacity="0.4"/>
+    <!-- Button placket -->
+    <line x1="0" y1="35" x2="0" y2="480" stroke="#5577aa" stroke-width="0.8" opacity="0.25"/>
+    <circle cx="0" cy="60" r="2.5" fill="none" stroke="#5577aa" stroke-width="0.6" opacity="0.3"/>
+    <circle cx="0" cy="100" r="2.5" fill="none" stroke="#5577aa" stroke-width="0.6" opacity="0.3"/>
+    <circle cx="0" cy="140" r="2.5" fill="none" stroke="#5577aa" stroke-width="0.6" opacity="0.3"/>
+    <circle cx="0" cy="180" r="2.5" fill="none" stroke="#5577aa" stroke-width="0.6" opacity="0.3"/>
+    <!-- Body -->
+    <path d="M-65 45 Q-70 120 -68 200 Q-66 300 -75 380 Q-85 440 -95 520"
+          fill="none" stroke="#5577aa" stroke-width="1.8" opacity="0.45"/>
+    <path d="M65 45 Q70 120 68 200 Q66 300 75 380 Q85 440 95 520"
+          fill="none" stroke="#5577aa" stroke-width="1.8" opacity="0.45"/>
+    <!-- Fill -->
+    <path d="M-65 45 Q-70 120 -68 200 Q-66 300 -75 380 Q-85 440 -95 520
+             L95 520 Q85 440 75 380 Q66 300 68 200 Q70 120 65 45 Z"
+          fill="#222244" opacity="0.3"/>
+    <!-- Cuff detail — resist-dye pattern -->
+    <g transform="translate(-75, 510)">
+      <rect x="-25" y="0" width="50" height="15" fill="none" stroke="#5577aa" stroke-width="0.6" opacity="0.3"/>
+      <circle cx="-10" cy="7" r="3" fill="none" stroke="#5577aa" stroke-width="0.4" opacity="0.2"/>
+      <circle cx="5" cy="7" r="3" fill="none" stroke="#5577aa" stroke-width="0.4" opacity="0.2"/>
+    </g>
+    <g transform="translate(75, 510)">
+      <rect x="-25" y="0" width="50" height="15" fill="none" stroke="#5577aa" stroke-width="0.6" opacity="0.3"/>
+      <circle cx="-5" cy="7" r="3" fill="none" stroke="#5577aa" stroke-width="0.4" opacity="0.2"/>
+      <circle cx="10" cy="7" r="3" fill="none" stroke="#5577aa" stroke-width="0.4" opacity="0.2"/>
+    </g>
+    <!-- Waist belt -->
+    <path d="M-66 220 Q0 215 66 220" fill="none" stroke="#4a6fa5" stroke-width="2" opacity="0.3"/>
+    <!-- Legs -->
+    <line x1="-20" y1="520" x2="-25" y2="620" stroke="#5577aa" stroke-width="1" opacity="0.2"/>
+    <line x1="20" y1="520" x2="25" y2="620" stroke="#5577aa" stroke-width="1" opacity="0.2"/>
+  </g>
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#5577aa" opacity="0.5">THE KANO SHIRT DRESS</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#5577aa" opacity="0.3">WASHED INDIGO</text>
+</svg>

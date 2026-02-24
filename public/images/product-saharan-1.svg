@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sh-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#E5DBC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#sh-bg)"/>
+  <!-- Cotton twill texture -->
+  <g opacity="0.05">
+    <line x1="0" y1="0" x2="800" y2="800" stroke="#8B6F47" stroke-width="0.4"/>
+    <line x1="0" y1="20" x2="800" y2="820" stroke="#8B6F47" stroke-width="0.4"/>
+    <line x1="0" y1="40" x2="800" y2="840" stroke="#8B6F47" stroke-width="0.4"/>
+    <line x1="800" y1="0" x2="0" y2="800" stroke="#8B6F47" stroke-width="0.4"/>
+    <line x1="780" y1="0" x2="-20" y2="800" stroke="#8B6F47" stroke-width="0.4"/>
+    <line x1="760" y1="0" x2="-40" y2="800" stroke="#8B6F47" stroke-width="0.4"/>
+  </g>
+  <!-- Wide trousers flat-lay style -->
+  <g transform="translate(300, 80)">
+    <!-- Waistband -->
+    <path d="M-120 0 Q-125 5 -125 15 Q-125 25 -120 30 L120 30 Q125 25 125 15 Q125 5 120 0 Z"
+          fill="#D4C4A8" opacity="0.3" stroke="#8B6F47" stroke-width="1" />
+    <!-- Button -->
+    <circle cx="0" cy="15" r="4" fill="none" stroke="#8B6F47" stroke-width="0.8" opacity="0.35"/>
+    <!-- Left leg -->
+    <path d="M-120 30 Q-130 150 -135 300 Q-140 450 -150 600"
+          fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.4"/>
+    <path d="M-10 30 Q-15 150 -20 300 Q-25 450 -30 600"
+          fill="none" stroke="#8B6F47" stroke-width="1.5" opacity="0.35"/>
+    <!-- Right leg -->
+    <path d="M10 30 Q15 150 20 300 Q25 450 30 600"
+          fill="none" stroke="#8B6F47" stroke-width="1.5" opacity="0.35"/>
+    <path d="M120 30 Q130 150 135 300 Q140 450 150 600"
+          fill="none" stroke="#8B6F47" stroke-width="2" opacity="0.4"/>
+    <!-- Left leg fill -->
+    <path d="M-120 30 Q-130 150 -135 300 Q-140 450 -150 600
+             L-30 600 Q-25 450 -20 300 Q-15 150 -10 30 Z"
+          fill="#E5DBC8" opacity="0.25"/>
+    <!-- Right leg fill -->
+    <path d="M10 30 Q15 150 20 300 Q25 450 30 600
+             L150 600 Q140 450 135 300 Q130 150 120 30 Z"
+          fill="#E5DBC8" opacity="0.25"/>
+    <!-- Center crease lines -->
+    <path d="M-70 40 Q-75 200 -80 400 Q-85 500 -90 600" fill="none" stroke="#8B6F47" stroke-width="0.5" opacity="0.15" stroke-dasharray="6 8"/>
+    <path d="M70 40 Q75 200 80 400 Q85 500 90 600" fill="none" stroke="#8B6F47" stroke-width="0.5" opacity="0.15" stroke-dasharray="6 8"/>
+    <!-- Hem -->
+    <path d="M-150 600 L-30 600" fill="none" stroke="#8B6F47" stroke-width="1" opacity="0.25"/>
+    <path d="M30 600 L150 600" fill="none" stroke="#8B6F47" stroke-width="1" opacity="0.25"/>
+    <!-- Pocket detail -->
+    <path d="M-100 60 Q-95 80 -90 110" fill="none" stroke="#8B6F47" stroke-width="0.8" opacity="0.2"/>
+    <path d="M100 60 Q95 80 90 110" fill="none" stroke="#8B6F47" stroke-width="0.8" opacity="0.2"/>
+  </g>
+  <text x="300" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#8B6F47" opacity="0.5">THE SAHARAN WIDE TROUSERS</text>
+  <text x="300" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#8B6F47" opacity="0.3">DUNE</text>
+</svg>

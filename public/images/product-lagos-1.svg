@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="lg-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#0f1428"/>
+    </linearGradient>
+    <pattern id="lg-adire" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="8" fill="none" stroke="#4a6fa5" stroke-width="0.5" opacity="0.12"/>
+      <circle cx="0" cy="0" r="5" fill="none" stroke="#4a6fa5" stroke-width="0.4" opacity="0.08"/>
+      <circle cx="40" cy="40" r="5" fill="none" stroke="#4a6fa5" stroke-width="0.4" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="url(#lg-bg)"/>
+  <rect width="600" height="800" fill="url(#lg-adire)"/>
+  <!-- Blazer silhouette -->
+  <g transform="translate(300, 100)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="26" ry="32" fill="#1e2952" stroke="#4a6fa5" stroke-width="0.8" opacity="0.7"/>
+    <!-- Natural hair -->
+    <path d="M-22 -12 Q-28 -35 -8 -40 Q0 -42 8 -40 Q28 -35 22 -12" fill="#0f1428" opacity="0.6"/>
+    <!-- Neck -->
+    <rect x="-5" y="28" width="10" height="20" fill="#2c3e6b" opacity="0.2" rx="5"/>
+    <!-- Blazer body -->
+    <path d="M-75 52 Q-80 80 -78 150 Q-76 250 -80 350 Q-82 420 -78 500"
+          fill="none" stroke="#4a6fa5" stroke-width="2" opacity="0.55"/>
+    <path d="M75 52 Q80 80 78 150 Q76 250 80 350 Q82 420 78 500"
+          fill="none" stroke="#4a6fa5" stroke-width="2" opacity="0.55"/>
+    <!-- Fill -->
+    <path d="M-75 52 Q-80 80 -78 150 Q-76 250 -80 350 Q-82 420 -78 500
+             L78 500 Q82 420 80 350 Q76 250 78 150 Q80 80 75 52 Z"
+          fill="#1e2952" opacity="0.35"/>
+    <!-- Lapels -->
+    <path d="M-10 52 L-5 110 L0 120 L5 110 L10 52" fill="none" stroke="#4a6fa5" stroke-width="1.5" opacity="0.45"/>
+    <!-- Shoulder line -->
+    <path d="M-75 52 Q-40 45 -10 52" fill="none" stroke="#4a6fa5" stroke-width="1" opacity="0.35"/>
+    <path d="M10 52 Q40 45 75 52" fill="none" stroke="#4a6fa5" stroke-width="1" opacity="0.35"/>
+    <!-- Button -->
+    <circle cx="0" cy="180" r="4" fill="none" stroke="#4a6fa5" stroke-width="0.8" opacity="0.4"/>
+    <!-- Pockets -->
+    <path d="M-55 250 L-20 248" fill="none" stroke="#4a6fa5" stroke-width="0.8" opacity="0.25"/>
+    <path d="M20 248 L55 250" fill="none" stroke="#4a6fa5" stroke-width="0.8" opacity="0.25"/>
+    <!-- Adire texture circles on blazer -->
+    <circle cx="-40" cy="160" r="15" fill="none" stroke="#4a6fa5" stroke-width="0.4" opacity="0.12"/>
+    <circle cx="35" cy="300" r="18" fill="none" stroke="#4a6fa5" stroke-width="0.4" opacity="0.1"/>
+    <circle cx="-30" cy="380" r="12" fill="none" stroke="#4a6fa5" stroke-width="0.4" opacity="0.1"/>
+    <!-- Trousers below -->
+    <line x1="-35" y1="500" x2="-40" y2="620" stroke="#4a6fa5" stroke-width="1.5" opacity="0.3"/>
+    <line x1="35" y1="500" x2="40" y2="620" stroke="#4a6fa5" stroke-width="1.5" opacity="0.3"/>
+    <line x1="-70" y1="500" x2="-78" y2="620" stroke="#4a6fa5" stroke-width="1" opacity="0.25"/>
+    <line x1="70" y1="500" x2="78" y2="620" stroke="#4a6fa5" stroke-width="1" opacity="0.25"/>
+  </g>
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#4a6fa5" opacity="0.5">THE LAGOS BLAZER</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#4a6fa5" opacity="0.3">DEEP INDIGO</text>
+</svg>
