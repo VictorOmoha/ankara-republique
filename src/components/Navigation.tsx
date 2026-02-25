@@ -78,6 +78,7 @@ export default function Navigation() {
               <NavLink href="/collections/indigo-chronicles">Indigo Chronicles</NavLink>
               <NavLink href="/collections/terra-nova">Terra Nova</NavLink>
               <NavLink href="/collections/ivory-atelier">Ivory Atelier</NavLink>
+              <NavLink href="/collections/basalt-weaves">Basalt Weaves</NavLink>
               <NavLink href="/about">Our Story</NavLink>
             </div>
           </div>
@@ -104,6 +105,9 @@ export default function Navigation() {
             </MobileNavLink>
             <MobileNavLink href="/collections/ivory-atelier" onClick={() => setIsMobileOpen(false)}>
               Ivory Atelier
+            </MobileNavLink>
+            <MobileNavLink href="/collections/basalt-weaves" onClick={() => setIsMobileOpen(false)}>
+              Basalt Weaves
             </MobileNavLink>
             <MobileNavLink href="/about" onClick={() => setIsMobileOpen(false)}>
               Our Story

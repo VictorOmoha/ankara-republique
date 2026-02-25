@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="nr-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2C2C2C"/>
+      <stop offset="100%" stop-color="#1A1A1A"/>
+    </linearGradient>
+    <pattern id="nr-weave" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#444" stroke-width="0.3" opacity="0.08"/>
+      <line x1="10" y1="0" x2="10" y2="20" stroke="#444" stroke-width="0.3" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="url(#nr-bg)"/>
+  <rect width="600" height="800" fill="url(#nr-weave)"/>
+  <!-- Tailored trousers on figure -->
+  <g transform="translate(300, 80)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="28" ry="35" fill="#444" opacity="0.45"/>
+    <!-- Hair - cropped -->
+    <ellipse cx="0" cy="-12" rx="30" ry="24" fill="#111" opacity="0.4"/>
+    <!-- Neck -->
+    <rect x="-6" y="32" width="12" height="16" fill="#333" opacity="0.15" rx="6"/>
+    <!-- Fitted top/blouse -->
+    <path d="M-14 46 Q-40 52 -50 65 Q-55 100 -50 155 L-14 155"
+          fill="none" stroke="#555" stroke-width="1.5" opacity="0.35"/>
+    <path d="M14 46 Q40 52 50 65 Q55 100 50 155 L14 155"
+          fill="none" stroke="#555" stroke-width="1.5" opacity="0.35"/>
+    <path d="M-14 46 Q-40 52 -50 65 Q-55 100 -50 155 L50 155 Q55 100 50 65 Q40 52 14 46 Z"
+          fill="#333" opacity="0.15"/>
+    <!-- Waistband -->
+    <rect x="-55" y="155" width="110" height="12" fill="#222" opacity="0.25" rx="1"/>
+    <!-- Left trouser leg -->
+    <path d="M-50 167 Q-55 280 -58 400 Q-60 500 -62 620"
+          fill="none" stroke="#111" stroke-width="2.2" opacity="0.5"/>
+    <path d="M-5 167 Q-12 280 -18 400 Q-22 500 -25 620"
+          fill="none" stroke="#111" stroke-width="2.2" opacity="0.5"/>
+    <path d="M-50 167 Q-55 280 -58 400 Q-60 500 -62 620 L-25 620 Q-22 500 -18 400 Q-12 280 -5 167 Z"
+          fill="#222" opacity="0.15"/>
+    <!-- Right trouser leg -->
+    <path d="M5 167 Q12 280 18 400 Q22 500 25 620"
+          fill="none" stroke="#111" stroke-width="2.2" opacity="0.5"/>
+    <path d="M50 167 Q55 280 58 400 Q60 500 62 620"
+          fill="none" stroke="#111" stroke-width="2.2" opacity="0.5"/>
+    <path d="M5 167 Q12 280 18 400 Q22 500 25 620 L62 620 Q60 500 58 400 Q55 280 50 167 Z"
+          fill="#222" opacity="0.15"/>
+    <!-- Crease lines -->
+    <line x1="-38" y1="200" x2="-42" y2="600" stroke="#111" stroke-width="0.5" opacity="0.12"/>
+    <line x1="38" y1="200" x2="42" y2="600" stroke="#111" stroke-width="0.5" opacity="0.12"/>
+    <!-- Wool texture -->
+    <path d="M-48 280 Q-35 284 -22 280" fill="none" stroke="#111" stroke-width="0.3" opacity="0.08"/>
+    <path d="M-50 400 Q-36 404 -22 400" fill="none" stroke="#111" stroke-width="0.3" opacity="0.08"/>
+    <path d="M22 300 Q36 304 48 300" fill="none" stroke="#111" stroke-width="0.3" opacity="0.08"/>
+    <path d="M20 440 Q36 444 50 440" fill="none" stroke="#111" stroke-width="0.3" opacity="0.08"/>
+  </g>
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#C4A882" opacity="0.6">THE NAIROBI TAILORED TROUSERS</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#666" opacity="0.35">MAGNETITE BLACK</text>
+</svg>

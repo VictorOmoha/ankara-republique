@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="lx-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C4A882"/>
+      <stop offset="100%" stop-color="#A89070"/>
+    </linearGradient>
+    <pattern id="lx-weave" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M0 14 L7 0 L14 14 L7 28 Z" fill="none" stroke="#8B7355" stroke-width="0.3" opacity="0.1"/>
+      <path d="M14 14 L21 0 L28 14 L21 28 Z" fill="none" stroke="#8B7355" stroke-width="0.3" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="url(#lx-bg)"/>
+  <rect width="600" height="800" fill="url(#lx-weave)"/>
+  <!-- Draped shawl on figure -->
+  <g transform="translate(300, 100)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="28" ry="35" fill="#8B7355" opacity="0.45"/>
+    <!-- Hair - natural waves -->
+    <ellipse cx="0" cy="-12" rx="34" ry="28" fill="#5C4033" opacity="0.35"/>
+    <ellipse cx="-10" cy="-20" r="18" fill="#5C4033" opacity="0.25"/>
+    <ellipse cx="10" cy="-20" r="18" fill="#5C4033" opacity="0.25"/>
+    <!-- Neck -->
+    <rect x="-6" y="32" width="12" height="16" fill="#A89070" opacity="0.15" rx="6"/>
+    <!-- Draped shawl - flowing, asymmetric -->
+    <path d="M-15 46 Q-80 50 -140 80 Q-180 110 -175 180 Q-170 260 -155 360 Q-140 430 -110 480"
+          fill="none" stroke="#8B7355" stroke-width="2" opacity="0.5"/>
+    <path d="M15 46 Q60 52 90 70 Q120 100 130 160 Q135 220 125 300"
+          fill="none" stroke="#8B7355" stroke-width="2" opacity="0.5"/>
+    <!-- Shawl drape across body -->
+    <path d="M-15 46 Q-80 50 -140 80 Q-180 110 -175 180 Q-170 260 -155 360 Q-140 430 -110 480
+             Q-40 520 40 490 Q90 460 125 300 Q135 220 130 160 Q120 100 90 70 Q60 52 15 46 Z"
+          fill="#B89B78" opacity="0.18"/>
+    <!-- Drape folds -->
+    <path d="M-60 100 Q-20 150 30 120" fill="none" stroke="#8B7355" stroke-width="1" opacity="0.2"/>
+    <path d="M-100 180 Q-40 220 20 190" fill="none" stroke="#8B7355" stroke-width="1" opacity="0.2"/>
+    <path d="M-120 280 Q-50 310 10 280" fill="none" stroke="#8B7355" stroke-width="1" opacity="0.2"/>
+    <path d="M-130 360 Q-60 390 0 360" fill="none" stroke="#8B7355" stroke-width="0.8" opacity="0.15"/>
+    <!-- Fringe at edge -->
+    <g opacity="0.2" stroke="#8B7355" stroke-width="0.6">
+      <line x1="-110" y1="480" x2="-115" y2="510"/>
+      <line x1="-100" y1="485" x2="-105" y2="515"/>
+      <line x1="-90" y1="490" x2="-95" y2="520"/>
+      <line x1="-80" y1="493" x2="-84" y2="523"/>
+      <line x1="-70" y1="496" x2="-73" y2="526"/>
+      <line x1="-60" y1="498" x2="-62" y2="528"/>
+      <line x1="-50" y1="500" x2="-51" y2="530"/>
+      <line x1="-40" y1="502" x2="-40" y2="532"/>
+      <line x1="-30" y1="505" x2="-29" y2="535"/>
+      <line x1="-20" y1="507" x2="-18" y2="537"/>
+      <line x1="-10" y1="508" x2="-7" y2="538"/>
+      <line x1="0" y1="508" x2="4" y2="538"/>
+      <line x1="10" y1="505" x2="15" y2="535"/>
+      <line x1="20" y1="500" x2="26" y2="530"/>
+      <line x1="30" y1="495" x2="36" y2="525"/>
+    </g>
+    <!-- Simple dress/body underneath -->
+    <path d="M-12 46 Q-25 60 -30 100 Q-35 180 -38 300 Q-40 400 -45 550"
+          fill="none" stroke="#8B7355" stroke-width="1" opacity="0.15"/>
+    <path d="M12 46 Q25 60 30 100 Q35 180 38 300 Q40 400 45 550"
+          fill="none" stroke="#8B7355" stroke-width="1" opacity="0.15"/>
+  </g>
+  <!-- Badge -->
+  <rect x="40" y="40" width="110" height="24" rx="2" fill="#8B7355" opacity="0.35"/>
+  <text x="95" y="56" text-anchor="middle" font-family="Georgia, serif" font-size="8" letter-spacing="3" fill="#FAF7F2" opacity="0.8">ARTISAN MADE</text>
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#5C4033" opacity="0.6">THE LUXOR DRAPED SHAWL</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#8B7355" opacity="0.35">ASWAN SANDS</text>
+</svg>

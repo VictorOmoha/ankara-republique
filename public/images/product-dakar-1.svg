@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="dk-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C5C5C"/>
+      <stop offset="100%" stop-color="#4A4A4A"/>
+    </linearGradient>
+    <pattern id="dk-weave" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 12 L6 0 L12 12 L6 24 Z" fill="none" stroke="#6B6B6B" stroke-width="0.3" opacity="0.1"/>
+      <path d="M12 12 L18 0 L24 12 L18 24 Z" fill="none" stroke="#6B6B6B" stroke-width="0.3" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="url(#dk-bg)"/>
+  <rect width="600" height="800" fill="url(#dk-weave)"/>
+  <!-- Overcoat on figure -->
+  <g transform="translate(300, 100)">
+    <!-- Head -->
+    <ellipse cx="0" cy="0" rx="28" ry="35" fill="#3A3A3A" opacity="0.5"/>
+    <!-- Hair -->
+    <ellipse cx="0" cy="-14" rx="32" ry="26" fill="#1A1A1A" opacity="0.4"/>
+    <!-- Neck -->
+    <rect x="-6" y="32" width="12" height="18" fill="#4A4A4A" opacity="0.15" rx="6"/>
+    <!-- Long overcoat -->
+    <path d="M-15 48 Q-85 65 -110 135 Q-125 220 -120 340 Q-115 440 -110 540 Q-108 600 -100 650"
+          fill="none" stroke="#2C2C2C" stroke-width="2.5" opacity="0.55"/>
+    <path d="M15 48 Q85 65 110 135 Q125 220 120 340 Q115 440 110 540 Q108 600 100 650"
+          fill="none" stroke="#2C2C2C" stroke-width="2.5" opacity="0.55"/>
+    <!-- Fill -->
+    <path d="M-15 48 Q-85 65 -110 135 Q-125 220 -120 340 Q-115 440 -110 540 Q-108 600 -100 650
+             L100 650 Q108 600 110 540 Q115 440 120 340 Q125 220 110 135 Q85 65 15 48 Z"
+          fill="#3A3A3A" opacity="0.2"/>
+    <!-- Lapels -->
+    <path d="M-15 48 Q-24 44 -42 52 Q-35 78 -25 88 L-10 68" fill="none" stroke="#2C2C2C" stroke-width="1.8" opacity="0.45"/>
+    <path d="M15 48 Q24 44 42 52 Q35 78 25 88 L10 68" fill="none" stroke="#2C2C2C" stroke-width="1.8" opacity="0.45"/>
+    <!-- Center seam -->
+    <line x1="0" y1="68" x2="0" y2="650" stroke="#2C2C2C" stroke-width="0.6" opacity="0.18"/>
+    <!-- Buttons -->
+    <circle cx="0" cy="170" r="2.5" fill="#2C2C2C" opacity="0.2"/>
+    <circle cx="0" cy="240" r="2.5" fill="#2C2C2C" opacity="0.2"/>
+    <circle cx="0" cy="310" r="2.5" fill="#2C2C2C" opacity="0.2"/>
+    <!-- Hem -->
+    <path d="M-100 650 Q0 665 100 650" fill="none" stroke="#2C2C2C" stroke-width="1.5" opacity="0.35"/>
+    <!-- Wool texture -->
+    <path d="M-80 200 Q-60 205 -40 200" fill="none" stroke="#2C2C2C" stroke-width="0.4" opacity="0.1"/>
+    <path d="M-90 300 Q-65 305 -40 300" fill="none" stroke="#2C2C2C" stroke-width="0.4" opacity="0.1"/>
+    <path d="M50 250 Q75 255 90 250" fill="none" stroke="#2C2C2C" stroke-width="0.4" opacity="0.1"/>
+    <path d="M45 380 Q70 385 95 380" fill="none" stroke="#2C2C2C" stroke-width="0.4" opacity="0.1"/>
+  </g>
+  <!-- Badge -->
+  <rect x="40" y="40" width="100" height="24" rx="2" fill="#2C2C2C" opacity="0.4"/>
+  <text x="90" y="56" text-anchor="middle" font-family="Georgia, serif" font-size="8" letter-spacing="3" fill="#C4A882" opacity="0.8">NEW ARRIVAL</text>
+  <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="10" letter-spacing="5" fill="#C4A882" opacity="0.6">THE DAKAR OVERCOAT</text>
+  <text x="300" y="770" text-anchor="middle" font-family="Georgia, serif" font-size="9" letter-spacing="3" fill="#888" opacity="0.35">BASALTIC GRAY</text>
+</svg>

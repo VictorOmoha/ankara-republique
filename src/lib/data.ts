@@ -58,6 +58,15 @@ export const collections: Collection[] = [
     image: "/images/collection-ivory.svg",
     season: "Atelier Collection",
   },
+  {
+    slug: "basalt-weaves",
+    name: "Basalt Weaves",
+    tagline: "Strength woven from stone and earth",
+    description:
+      "Inspired by volcanic landscapes and ancient quarries. Pure organic wool in tones drawn from basalt, magnetite, and the sands of Aswan — pieces that embody warmth, weight, and quiet authority.",
+    image: "/images/collection-basalt.svg",
+    season: "Autumn/Winter 2026",
+  },
 ];
 
 export const products: Product[] = [
@@ -198,6 +207,48 @@ export const products: Product[] = [
     images: ["/images/product-calabar-1.svg"],
     sizes: ["One Size"],
     color: "Soft Cream",
+  },
+  // Basalt Weaves
+  {
+    id: "basalt-01",
+    name: "The Dakar Overcoat",
+    price: 895,
+    description:
+      "A commanding full-length overcoat in pure organic wool. The basaltic gray tone evokes volcanic stone, while the structured silhouette and clean lapels project quiet authority. Built for warmth and permanence.",
+    fabric: "100% Organic Wool, GOTS Certified",
+    collection: "Basalt Weaves",
+    collectionSlug: "basalt-weaves",
+    images: ["/images/product-dakar-1.svg"],
+    sizes: ["S", "M", "L", "XL"],
+    color: "Basaltic Gray",
+    badge: "New Arrival",
+  },
+  {
+    id: "basalt-02",
+    name: "The Nairobi Tailored Trousers",
+    price: 525,
+    description:
+      "Impeccably tailored high-waist trousers in organic merino wool. The magnetite black carries depth without harshness, and the natural stretch of fine merino ensures comfort through every movement.",
+    fabric: "100% Organic Merino Wool, OEKO-TEX Standard 100",
+    collection: "Basalt Weaves",
+    collectionSlug: "basalt-weaves",
+    images: ["/images/product-nairobi-1.svg"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    color: "Magnetite Black",
+  },
+  {
+    id: "basalt-03",
+    name: "The Luxor Draped Shawl",
+    price: 445,
+    description:
+      "An oversized draped shawl in a luxurious wool-linen blend. The warm Aswan sands tone recalls the golden quarries of Upper Egypt. Hand-finished fringe details celebrate artisan tradition.",
+    fabric: "85% Organic Wool, 15% Organic Linen",
+    collection: "Basalt Weaves",
+    collectionSlug: "basalt-weaves",
+    images: ["/images/product-luxor-1.svg"],
+    sizes: ["One Size"],
+    color: "Aswan Sands",
+    badge: "Artisan Made",
   },
 ];
 

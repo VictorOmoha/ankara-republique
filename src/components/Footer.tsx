@@ -56,6 +56,7 @@ export default function Footer() {
               <FooterLink href="/collections/indigo-chronicles">Indigo Chronicles</FooterLink>
               <FooterLink href="/collections/terra-nova">Terra Nova</FooterLink>
               <FooterLink href="/collections/ivory-atelier">Ivory Atelier</FooterLink>
+              <FooterLink href="/collections/basalt-weaves">Basalt Weaves</FooterLink>
             </ul>
           </div>
 
