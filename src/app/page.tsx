@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Leaf, Shield, Gem, Heart } from "lucide-react";
+import { ArrowRight, Leaf, Shield, Gem, Infinity } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
 import { collections, getFeaturedProducts } from "@/lib/data";
 
@@ -80,7 +80,7 @@ export default function HomePage() {
             <PillarItem icon={<Leaf size={18} />} label="Organic Fabrics" />
             <PillarItem icon={<Gem size={18} />} label="Artisan Crafted" />
             <PillarItem icon={<Shield size={18} />} label="Toxin-Free" />
-            <PillarItem icon={<Heart size={18} />} label="Timeless Design" />
+            <PillarItem icon={<Infinity size={18} />} label="Timeless Design" />
           </div>
         </div>
       </section>
