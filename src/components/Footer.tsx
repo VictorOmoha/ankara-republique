@@ -101,6 +101,20 @@ export default function Footer() {
             </span>
           </div>
         </div>
+
+        <div className="mt-6 text-center">
+          <p className="text-[10px] tracking-[0.15em] text-ivory/20">
+            Built by{" "}
+            <a
+              href="https://www.omohasolutions.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ivory/30 hover:text-ivory/50 transition-colors"
+            >
+              Omoha Solutions
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
